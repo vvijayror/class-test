@@ -10,6 +10,17 @@ namespace class_test
     {
         static void Main(string[] args)
         {
+            int i = 11;
+            int sum = 0;
+
+            while (i<= 15)
+            {
+           
+                sum += i;
+                i++;
+            }
+            Console.WriteLine("sum = {0}", sum);
+            Console.ReadLine();
         }
     }
 }
